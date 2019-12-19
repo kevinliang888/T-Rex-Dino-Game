@@ -1,0 +1,11 @@
+In jumping dinosaur, player controls a cute dinosaur which can jump. There will be obstacles which keep moving left on the ground and in the sky. The main goal for player is to avoid colliding to these obstacles by pressing button KEY[1] to jump over them. When dinosaur  collides to an obstacle, the game is over and player has to press KEY[0] to restart the game.
+
+
+We will complete the dinosaur datapath and control to demonstrate dinosaur behaviour  on the screen.
+
+We will complete the obstacles generation and movement of obstacles on the ground. If we have more time, we will also complete the collision part which judges whether the game is over.
+
+We will complete the obstacles behaviour in the sky. Obstacles like birds may move faster than trees on the ground which increase the game difficulty.
+
+
+The behaviour of dinosaur can be decided by a finite state machine. The dinosaur will have four states: when it's on the ground, when it's jumping up, when it's falling down and when it dies. We need to draw the state diagram to figure out how the state change. Moreover, we will implement the animation of the dinosaur and the movement of the game screen.
